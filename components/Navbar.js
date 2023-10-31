@@ -7,7 +7,7 @@ import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 export default function Navbar() {
   return (
     <div>
-      <div className="max-w-lg: bg-[#032830]  mx-auto flex items-center  justify-around space-x-6 flex-row  box ">
+      <div className="max-w-lg:  bg-[#032830]  h-20 mx-auto flex items-center border-b-2 border-[#ffff] border-solid justify-around space-x-6 flex-row  box ">
         <div className="logo">
           <Image
             className=" w-40"
@@ -21,7 +21,7 @@ export default function Navbar() {
         <div className="  navbar-link flex items-center flex-row gap-[4vw]  justify-around space-x-4">
           <ul className="flex items-center gap-[4vw]">
             <li>
-              <Link href="/" passHref className="mx-4   text-white">
+              <Link href="/" passHref className="mx-4 text-white font-[Montserrat] text-[15px] not-italic font-semibold leading-[150%]  text-white">
                 <h2 className=" hover:text-[#368B82] text-white  ">
                   Formation
                 </h2>
@@ -29,7 +29,7 @@ export default function Navbar() {
             </li>
 
             <li>
-              <Link href="/" passHref className="mx-4 ">
+              <Link href="/" passHref className="mx-4 text-white  text-[15px] not-italic font-semibold leading-[150%]">
                 <h2 className=" hover:text-[#368B82] text-white">
                   Certifications
                 </h2>
@@ -37,7 +37,7 @@ export default function Navbar() {
             </li>
 
             <li>
-              <Link href="/" passHref className="mx-4 ">
+              <Link href="/" passHref className="mx-4 text-white font-[Montserrat] text-[15px] not-italic font-semibold leading-[150%] ">
                 <h2 className=" hover:text-[#368B82] text-white ">Quizzes</h2>
               </Link>
             </li>

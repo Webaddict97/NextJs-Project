@@ -1,28 +1,25 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 :root {
-    --primary-background: #032830;
-    --second-color: #368B82;
-    --primary-title-color: #77B1AB;
+  --primary-background: #032830;
+  --second-color: #368b82;
+  --primary-title-color: #77b1ab;
 }
 
 html,
 body {
-    scroll-behavior: smooth;
-
+  scroll-behavior: smooth;
 }
 
 h1,
 h2,
 h3,
 h4,
-h6
- {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
 }
-
 
 p,
 ul,
@@ -30,23 +27,48 @@ button,
 input,
 ol,
 select {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
 .section-hero {
-    background-color: var(--primary-background);
-    width: 100%;
-    height: 37.5rem;
-  }
+  background-color: var(--primary-background);
+  width: 100%;
+  height: 69rem;
+}
 
-   .hero-title h2  {
-   font-weight: 900;
-   font-size: 2.5rem;
-  }
+.hero-title h2 {
+  font-weight: 900;
+  font-size: 2.5rem;
+}
 
-  .hero-title .s-title {
-    font-weight: 900;
-    font-size: 2.5rem;
-    color: var(--primary-title-color);
-   }
+.hero-title {
+  margin-top: -27rem;
+  margin-left: -6.44rem;
+  width: 38.68rem;
+}
+
+.hero-title .text {
+  margin-left: -3.25rem;
+}
+
+/* .hero-title button {
+  margin-left: -3.25rem;
+  margin-top: 2.25rem;
+} */
+
+.hero-title .s-title {
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: var(--primary-title-color);
+}
+
+.navbar-link h2 {
+  color: #FFF;
+
+font-family: Montserrat;
+font-size: 15px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%; /* 22.5px */
+}
